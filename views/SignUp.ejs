@@ -1,0 +1,66 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" href="Css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Oswald&display=swap" rel="stylesheet">
+   <title>HomeBuildINT</title>
+ </head>
+ 
+ <body class="signupbg">
+   <div>
+   <hr class="top">
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg  bg-light sticky-top shadow">
+    <a class="navbar-brand titlename" href="/"><img src="/Images/hb final.png" height="50px" width="50px" style="margin-right: 5px;" alt="">HomeBuildINT</a>
+
+  </div>
+  <div class="container shadow signup" style="background-color: whitesmoke; height: 100px; border-radius: 10px 10px 0px 0px; margin-bottom: 0px; padding-top: 10px;">
+  <h1 class="head center" style="margin-top: 20px; color: black;">SignUp</h1>
+  </div>
+
+<div class =" container shadow signup" style="background-color: white; border-radius: 0px 0px 10px 10px; padding-top: 15px; margin-top: 0px;">
+    
+    
+    <form>
+        <div class="form-group">
+            <label for="InputFName">First Name</label>
+            <input type="text" class="form-control" id="InputFName" placeholder="Your First Name">
+        </div>
+            <div class="form-group">
+            <label for="InputLName">Last Name</label>
+            <input type="text" class="form-control" id="InputLName" placeholder="Your Last Name">
+          </div>
+    <div class="form-group">
+      <label for="InputEmail">Email address</label>
+      <input type="email" class="form-control" id="InputEmail" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="Select">Select your Purpose </label>
+      <select class="form-control" id="Select">
+        <option>Be a User</option>
+        <option>Be a Architect</option>
+        <option>Be a Builder</option>
+        <option>Be a Interior Designer</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="InputPwd">Password</label>
+        <input type="password" class="form-control" id="InputPwd" placeholder="Password">
+    </div>
+    <div class="form-group">
+        <label for="InputCnpwd">Confirm Password</label>
+        <input type="password" class="form-control" id="InputCnpwd" placeholder="Re-enter Password">
+    </div>
+    <button class="btn btn-outline-dark btn-lg" style="margin: auto; display: block;" type="submit">SignUp</button>
+    
+  </form>
+</div>
+</div>
+</body>
+<%-include('footer.ejs'); %>
